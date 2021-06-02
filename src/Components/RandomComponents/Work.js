@@ -6,7 +6,7 @@ const Work = () => {
         <div>
             <App />
             <h1>Hello World</h1>
-            <App />
+            
         </div>
     )
 }

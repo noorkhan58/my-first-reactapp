@@ -4,11 +4,14 @@ import User from '../UserComponents/User';
 const App = () => {
   return (
     <div>
-      <Home />
+      <Home video="Anik" name="Javascript" view="1000" time="1 Year"/>
       <h2>This is my Second Component</h2>
-      <User />
+      <Home video="Fardin Khan" time="1 Year" />
+
     </div>
   )
 }
+
+
 
 export default App
