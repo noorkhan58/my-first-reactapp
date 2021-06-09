@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Work from './Components/RandomComponents/Work';
+import { App } from './Components/App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Work />
+    <App />
   </React.StrictMode>,
   document.getElementById('box1')
 );
