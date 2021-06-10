@@ -1,4 +1,7 @@
 import React, {useState, useEffect} from 'react'
+import Destructure from './Destructure'
+import EventHandling from './EventHandling'
+import ParentComponent from './ParentComponent'
 import Posts from './Posts'
 import Users from './Users'
 
@@ -31,11 +34,21 @@ export const App = () => {
     }, [])
 
 
+    const alertMe = (str) => {
+        alert("Hello " + str)
+    }
+
     return (
         <div>
             {/* <Users usersList={usersList}/> */}
 
-            <Posts postList={postList} />
+            {/* <Posts postList={postList} /> */}
+
+            {/* <ParentComponent /> */}
+
+            {/* <Destructure name="Fardin Khan" age={20} /> */}
+
+            <EventHandling  alertme = {alertMe}/>
         </div>
     )
 }
